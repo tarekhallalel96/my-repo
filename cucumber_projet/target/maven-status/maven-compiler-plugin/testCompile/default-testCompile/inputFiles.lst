@@ -1,0 +1,10 @@
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/tools/WebdriverTool.java
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/pages/ProductsPage.java
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/pages/Checkoutpage.java
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/pages/LoginPage.java
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/steps/ProduitsSteps.java
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/RunCucumberTest.java
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/steps/LoginSteps.java
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/steps/CheckoutSteps.java
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/steps/LoginDataSteps.java
+/home/tarekhall/Documents/projet-maven/cucumber_projet/src/test/java/com/logwire/hooks/Hooks.java

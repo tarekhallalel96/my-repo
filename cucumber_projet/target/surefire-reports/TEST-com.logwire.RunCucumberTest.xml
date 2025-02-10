@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.logwire.RunCucumberTest" time="100.463" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/tarekhall/Documents/projet-maven/cucumber_projet/target/test-classes:/home/tarekhall/Documents/projet-maven/cucumber_projet/target/classes:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.1/selenium-java-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.1/selenium-api-4.28.1.jar:/home/tarekhall/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.1/selenium-chrome-driver-4.28.1.jar:/home/tarekhall/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.1/selenium-chromium-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.1/selenium-json-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.1/selenium-manager-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.1/selenium-devtools-v130-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.1/selenium-devtools-v131-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.1/selenium-devtools-v132-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.1/selenium-devtools-v85-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.1/selenium-edge-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.1/selenium-firefox-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.1/selenium-http-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.1/selenium-ie-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.1/selenium-remote-driver-4.28.1.jar:/home/tarekhall/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/tarekhall/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/tarekhall/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tarekhall/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tarekhall/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/tarekhall/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/tarekhall/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/home/tarekhall/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.1/selenium-os-4.28.1.jar:/home/tarekhall/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.1/selenium-safari-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.1/selenium-support-4.28.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/home/tarekhall/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/home/tarekhall/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/tarekhall/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/home/tarekhall/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/home/tarekhall/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/tarekhall/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.11.1/cucumber-junit-platform-engine-7.11.1.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/tarekhall/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-suite/1.9.2/junit-platform-suite-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.2/junit-platform-suite-api-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.2/junit-platform-suite-engine-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.2/junit-platform-suite-commons-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/home/tarekhall/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/tarekhall/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/home/tarekhall/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:"/>
+    <property name="java.vm.vendor" value="Debian"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-17"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/tarekhall/Documents/projet-maven/cucumber_projet/target/surefire/surefirebooter-20250210004825630_3.jar /home/tarekhall/Documents/projet-maven/cucumber_projet/target/surefire 2025-02-10T00-48-25_182-jvmRun1 surefire-20250210004825630_1tmp surefire_0-20250210004825630_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/tarekhall/Documents/projet-maven/cucumber_projet/target/test-classes:/home/tarekhall/Documents/projet-maven/cucumber_projet/target/classes:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.1/selenium-java-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.1/selenium-api-4.28.1.jar:/home/tarekhall/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.1/selenium-chrome-driver-4.28.1.jar:/home/tarekhall/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.1/selenium-chromium-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.1/selenium-json-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.1/selenium-manager-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.1/selenium-devtools-v130-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.1/selenium-devtools-v131-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.1/selenium-devtools-v132-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.1/selenium-devtools-v85-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.1/selenium-edge-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.1/selenium-firefox-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.1/selenium-http-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.1/selenium-ie-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.1/selenium-remote-driver-4.28.1.jar:/home/tarekhall/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/tarekhall/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/tarekhall/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tarekhall/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tarekhall/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/tarekhall/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/tarekhall/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/home/tarekhall/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/home/tarekhall/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.1/selenium-os-4.28.1.jar:/home/tarekhall/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.1/selenium-safari-driver-4.28.1.jar:/home/tarekhall/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.1/selenium-support-4.28.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/home/tarekhall/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/home/tarekhall/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/tarekhall/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/home/tarekhall/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/home/tarekhall/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/home/tarekhall/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/tarekhall/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/tarekhall/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.11.1/cucumber-junit-platform-engine-7.11.1.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/tarekhall/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-suite/1.9.2/junit-platform-suite-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.2/junit-platform-suite-api-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.2/junit-platform-suite-engine-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.2/junit-platform-suite-commons-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/home/tarekhall/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/home/tarekhall/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/tarekhall/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/home/tarekhall/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/tarekhall"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/tarekhall/Documents/projet-maven/cucumber_projet"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/tarekhall/Documents/projet-maven/cucumber_projet/target/surefire/surefirebooter-20250210004825630_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.14+7-Debian-1deb12u1"/>
+    <property name="user.name" value="tarekhall"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.1.0-30-amd64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/tarekhall/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.14"/>
+    <property name="user.dir" value="/home/tarekhall/Documents/projet-maven/cucumber_projet"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Debian"/>
+    <property name="java.vm.version" value="17.0.14+7-Debian-1deb12u1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verification de la liste des produits" classname="Produits" time="7.372">
+    <system-out><![CDATA[
+Scenario: verification de la liste des produits          &amp#27;[90m# com/logwire/produits.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje suis sur la page &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.saucedemo.com/"&amp#27;[0m &amp#27;[90m# com.logwire.steps.LoginSteps.je_suis_sur_la_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisi le username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m              &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_username(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisi le password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur Login&amp#27;[0m                                &amp#27;[90m# com.logwire.steps.LoginSteps.je_clique_sur_Login()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mj accede mon dashboard&amp#27;[0m                            &amp#27;[90m# com.logwire.steps.LoginSteps.j_accede_mon_dashboard()&amp#27;[0m
+hello
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje rajoute un produit&amp#27;[0m                             &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_rajoute_un_produit()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[févr. 10, 2025 12:48:28 AM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+AVERTISSEMENT: Failed to load class 'net.bytebuddy.dynamic.loading.ClassInjector$UsingJna$Dispatcher$Windows32BitFunctionMapper'.
+By default Cucumber scans the entire classpath for step definitions.
+You can restrict this by configuring the glue path.
+
+Examples:
+ - @CucumberOptions(glue = "com.example.application")
+ - @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.example.application") - src/test/resources/junit-platform.properties   cucumber.glue=com.example.application
+ - src/test/resources/cucumber.properties         cucumber.glue=com.example.application
+
+java.lang.NoClassDefFoundError: com/sun/jna/FunctionMapper
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at io.cucumber.core.resource.ClasspathScanner.safelyLoadClass(ClasspathScanner.java:107)
+	at io.cucumber.core.resource.ClasspathScanner.lambda$processClassFiles$5(ClasspathScanner.java:99)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2811)
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
+	at io.cucumber.core.resource.ClasspathScanner.findClassesForUri(ClasspathScanner.java:73)
+	at io.cucumber.core.resource.ClasspathScanner.lambda$findClassesForUris$3(ClasspathScanner.java:65)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at io.cucumber.core.resource.ClasspathScanner.findClassesForUris(ClasspathScanner.java:68)
+	at io.cucumber.core.resource.ClasspathScanner.scanForClassesInPackage(ClasspathScanner.java:52)
+	at io.cucumber.core.resource.ClasspathScanner.scanForClassesInPackage(ClasspathScanner.java:115)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at io.cucumber.java.JavaBackend.loadGlue(JavaBackend.java:41)
+	at io.cucumber.core.runner.Runner.<init>(Runner.java:56)
+	at io.cucumber.core.runtime.SingletonRunnerSupplier.createRunner(SingletonRunnerSupplier.java:44)
+	at io.cucumber.core.runtime.SingletonRunnerSupplier.get(SingletonRunnerSupplier.java:35)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:35)
+	at io.cucumber.core.runtime.CucumberExecutionContext.getRunner(CucumberExecutionContext.java:134)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runBeforeAllHooks(CucumberExecutionContext.java:86)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runBeforeAllHooks(CucumberEngineExecutionContext.java:101)
+	at io.cucumber.junit.platform.engine.CucumberEngineDescriptor.before(CucumberEngineDescriptor.java:43)
+	at io.cucumber.junit.platform.engine.CucumberEngineDescriptor.before(CucumberEngineDescriptor.java:10)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:73)
+	at org.junit.platform.suite.engine.SuiteLauncher.execute(SuiteLauncher.java:63)
+	at org.junit.platform.suite.engine.SuiteTestDescriptor.execute(SuiteTestDescriptor.java:128)
+	at org.junit.platform.suite.engine.SuiteTestEngine.lambda$execute$0(SuiteTestEngine.java:73)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.platform.suite.engine.SuiteTestEngine.execute(SuiteTestEngine.java:73)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.FunctionMapper
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 94 more
+
+févr. 10, 2025 12:48:28 AM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+AVERTISSEMENT: Failed to load class 'net.bytebuddy.dynamic.loading.ClassInjector$UsingJna$Dispatcher$Jvm'.
+By default Cucumber scans the entire classpath for step definitions.
+You can restrict this by configuring the glue path.
+
+Examples:
+ - @CucumberOptions(glue = "com.example.application")
+ - @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.example.application") - src/test/resources/junit-platform.properties   cucumber.glue=com.example.application
+ - src/test/resources/cucumber.properties         cucumber.glue=com.example.application
+
+java.lang.NoClassDefFoundError: com/sun/jna/Library
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1017)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at io.cucumber.core.resource.ClasspathScanner.safelyLoadClass(ClasspathScanner.java:107)
+	at io.cucumber.core.resource.ClasspathScanner.lambda$processClassFiles$5(ClasspathScanner.java:99)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2811)
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
+	at io.cucumber.core.resource.ClasspathScanner.findClassesForUri(ClasspathScanner.java:73)
+	at io.cucumber.core.resource.ClasspathScanner.lambda$findClassesForUris$3(ClasspathScanner.java:65)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at io.cucumber.core.resource.ClasspathScanner.findClassesForUris(ClasspathScanner.java:68)
+	at io.cucumber.core.resource.ClasspathScanner.scanForClassesInPackage(ClasspathScanner.java:52)
+	at io.cucumber.core.resource.ClasspathScanner.scanForClassesInPackage(ClasspathScanner.java:115)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at io.cucumber.java.JavaBackend.loadGlue(JavaBackend.java:41)
+	at io.cucumber.core.runner.Runner.<init>(Runner.java:56)
+	at io.cucumber.core.runtime.SingletonRunnerSupplier.createRunner(SingletonRunnerSupplier.java:44)
+	at io.cucumber.core.runtime.SingletonRunnerSupplier.get(SingletonRunnerSupplier.java:35)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:35)
+	at io.cucumber.core.runtime.CucumberExecutionContext.getRunner(CucumberExecutionContext.java:134)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runBeforeAllHooks(CucumberExecutionContext.java:86)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runBeforeAllHooks(CucumberEngineExecutionContext.java:101)
+	at io.cucumber.junit.platform.engine.CucumberEngineDescriptor.before(CucumberEngineDescriptor.java:43)
+	at io.cucumber.junit.platform.engine.CucumberEngineDescriptor.before(CucumberEngineDescriptor.java:10)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:73)
+	at org.junit.platform.suite.engine.SuiteLauncher.execute(SuiteLauncher.java:63)
+	at org.junit.platform.suite.engine.SuiteTestDescriptor.execute(SuiteTestDescriptor.java:128)
+	at org.junit.platform.suite.engine.SuiteTestEngine.lambda$execute$0(SuiteTestEngine.java:73)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.platform.suite.engine.SuiteTestEngine.execute(SuiteTestEngine.java:73)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 94 more
+
+févr. 10, 2025 12:48:33 AM org.openqa.selenium.firefox.FirefoxDriver <init>
+AVERTISSEMENT: CDP support for Firefox is deprecated and will be removed in future versions. Please switch to WebDriver BiDi.
+]]></system-err>
+  </testcase>
+  <testcase name="Vérifier qu&apos;un produit est bien dans le panier" classname="Produits" time="7.39">
+    <system-out><![CDATA[
+Scenario: Vérifier qu'un produit est bien dans le panier &amp#27;[90m# com/logwire/produits.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje suis sur la page &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.saucedemo.com/"&amp#27;[0m &amp#27;[90m# com.logwire.steps.LoginSteps.je_suis_sur_la_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisi le username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m              &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_username(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisi le password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur Login&amp#27;[0m                                &amp#27;[90m# com.logwire.steps.LoginSteps.je_clique_sur_Login()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mj accede mon dashboard&amp#27;[0m                            &amp#27;[90m# com.logwire.steps.LoginSteps.j_accede_mon_dashboard()&amp#27;[0m
+hello
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje rajoute un produit&amp#27;[0m                              &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_rajoute_un_produit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje vérifie que le produit  dans le panier&amp#27;[0m         &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_v_rifie_que_le_produit_dans_le_panier()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[févr. 10, 2025 12:48:39 AM org.openqa.selenium.firefox.FirefoxDriver <init>
+AVERTISSEMENT: CDP support for Firefox is deprecated and will be removed in future versions. Please switch to WebDriver BiDi.
+]]></system-err>
+  </testcase>
+  <testcase name="je clique sur le boutton checkout" classname="Produits" time="7.21">
+    <system-out><![CDATA[
+Scenario: je clique sur le boutton checkout              &amp#27;[90m# com/logwire/produits.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje suis sur la page &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.saucedemo.com/"&amp#27;[0m &amp#27;[90m# com.logwire.steps.LoginSteps.je_suis_sur_la_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisi le username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m              &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_username(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisi le password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur Login&amp#27;[0m                                &amp#27;[90m# com.logwire.steps.LoginSteps.je_clique_sur_Login()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mj accede mon dashboard&amp#27;[0m                            &amp#27;[90m# com.logwire.steps.LoginSteps.j_accede_mon_dashboard()&amp#27;[0m
+hello
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje rajoute un produit&amp#27;[0m                              &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_rajoute_un_produit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje clique sur le boutton checkout&amp#27;[0m                 &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_clique_sur_le_boutton_checkout()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[févr. 10, 2025 12:48:47 AM org.openqa.selenium.firefox.FirefoxDriver <init>
+AVERTISSEMENT: CDP support for Firefox is deprecated and will be removed in future versions. Please switch to WebDriver BiDi.
+]]></system-err>
+  </testcase>
+  <testcase name="je rempli le formulaire checkout" classname="Produits" time="51.361">
+    <system-out><![CDATA[
+Scenario: je rempli le formulaire checkout               &amp#27;[90m# com/logwire/produits.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje suis sur la page &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.saucedemo.com/"&amp#27;[0m &amp#27;[90m# com.logwire.steps.LoginSteps.je_suis_sur_la_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisi le username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m              &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_username(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisi le password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur Login&amp#27;[0m                                &amp#27;[90m# com.logwire.steps.LoginSteps.je_clique_sur_Login()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mj accede mon dashboard&amp#27;[0m                            &amp#27;[90m# com.logwire.steps.LoginSteps.j_accede_mon_dashboard()&amp#27;[0m
+hello
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje rajoute un produit&amp#27;[0m                              &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_rajoute_un_produit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje clique sur le boutton checkout&amp#27;[0m                 &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_clique_sur_le_boutton_checkout()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisi le firstt namee &amp#27;[0m&amp#27;[32m&amp#27;[1m"tarek"&amp#27;[0m                  &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_saisi_le_firstt_namee(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisi le lasttname &amp#27;[0m&amp#27;[32m&amp#27;[1m"tarek"&amp#27;[0m                      &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_saisi_le_lasttname(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisi le codepostal &amp#27;[0m&amp#27;[32m&amp#27;[1m"tarek"&amp#27;[0m                     &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_saisi_le_codepostal(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur continue&amp#27;[0m                             &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_clique_sur_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje suis sur la page Checkout: Overview&amp#27;[0m            &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_suis_sur_la_page_Checkout_Overview()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[févr. 10, 2025 12:48:54 AM org.openqa.selenium.firefox.FirefoxDriver <init>
+AVERTISSEMENT: CDP support for Firefox is deprecated and will be removed in future versions. Please switch to WebDriver BiDi.
+]]></system-err>
+  </testcase>
+  <testcase name="je verifie le prix" classname="Produits" time="25.278">
+    <system-out><![CDATA[
+Scenario: je verifie le prix                             &amp#27;[90m# com/logwire/produits.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mje suis sur la page &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.saucedemo.com/"&amp#27;[0m &amp#27;[90m# com.logwire.steps.LoginSteps.je_suis_sur_la_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisi le username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m              &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_username(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisi le password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                &amp#27;[90m# com.logwire.steps.LoginSteps.je_saisi_le_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur Login&amp#27;[0m                                &amp#27;[90m# com.logwire.steps.LoginSteps.je_clique_sur_Login()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mj accede mon dashboard&amp#27;[0m                            &amp#27;[90m# com.logwire.steps.LoginSteps.j_accede_mon_dashboard()&amp#27;[0m
+hello
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje rajoute un produit&amp#27;[0m                              &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_rajoute_un_produit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje clique sur le boutton checkout&amp#27;[0m                 &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_clique_sur_le_boutton_checkout()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mje saisi le firstt namee &amp#27;[0m&amp#27;[32m&amp#27;[1m"tarek"&amp#27;[0m                  &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_saisi_le_firstt_namee(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisi le lasttname &amp#27;[0m&amp#27;[32m&amp#27;[1m"tarek"&amp#27;[0m                      &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_saisi_le_lasttname(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje saisi le codepostal &amp#27;[0m&amp#27;[32m&amp#27;[1m"tarek"&amp#27;[0m                     &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_saisi_le_codepostal(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mje clique sur continue&amp#27;[0m                             &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_clique_sur_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje suis sur la page Checkout: Overview&amp#27;[0m            &amp#27;[90m# com.logwire.steps.CheckoutSteps.je_suis_sur_la_page_Checkout_Overview()&amp#27;[0m
+[[[FirefoxDriver: firefox on linux (4e7cb4d7-1b1b-475a-97f6-d65739ff79fa)] -> css selector: .cart_item]]
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mje verifie le prix totale affiché&amp#27;[0m                 &amp#27;[90m# com.logwire.steps.ProduitsSteps.je_verifie_le_prix_totale_affich()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[févr. 10, 2025 12:49:55 AM org.openqa.selenium.firefox.FirefoxDriver <init>
+AVERTISSEMENT: CDP support for Firefox is deprecated and will be removed in future versions. Please switch to WebDriver BiDi.
+]]></system-err>
+  </testcase>
+</testsuite>
